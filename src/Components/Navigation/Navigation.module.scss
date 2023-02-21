@@ -1,0 +1,30 @@
+$background-color: #111827;
+$hover-color: #2c66c3;
+
+.Navigation {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 16px;
+  background-color: $background-color;
+  color: white;
+}
+
+li {
+  float: right;
+  padding: 5px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: $hover-color;
+  border-radius: 16px;
+}
