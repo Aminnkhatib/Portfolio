@@ -4,14 +4,18 @@ import "./index.scss";
 import App from "./Components/App";
 import reportWebVitals from "./reportWebVitals";
 import Navigation from "./Components/Navigation";
+import Content from "./Components/Content";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Navigation />
-    <App />
+    <div className="rootBackground">
+      <Navigation />
+      <Content />
+      <App />
+    </div>
   </React.StrictMode>
 );
 
