@@ -4,7 +4,9 @@ function Content() {
   return (
     <div className={styles.container}>
       <div className={styles.introduction}>
-        <h1>Hello I'm Aminn</h1>
+        <p className={styles.greeting}>👋 Hello I'm</p>
+        <p className={styles.name}>Aminn</p>
+        <p className={styles.frontend}>&lt;&gt;Frontend developer&lt;/&gt;</p>
       </div>
       <div className={styles.imageContainer}>
         <img
