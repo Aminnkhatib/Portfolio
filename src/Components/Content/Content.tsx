@@ -1,5 +1,7 @@
 import styles from "./Content.module.scss";
 
+// import computerImage from "./../Illustrations/computerImage.svg";
+
 function Content() {
   return (
     <div className={styles.container}>
@@ -10,7 +12,7 @@ function Content() {
       </div>
       <div className={styles.imageContainer}>
         <img
-          src={process.env.PUBLIC_URL + "./computerImage.svg"}
+          src={process.env.PUBLIC_URL + "/computerImage.svg"}
           alt="computerImage"
           className={styles.computerImage}
         />
