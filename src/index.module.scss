@@ -19,3 +19,11 @@ code {
   margin: 0;
   padding: 0;
 }
+
+.projectCards {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}

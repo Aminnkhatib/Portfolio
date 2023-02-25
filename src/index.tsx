@@ -1,24 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.scss";
+import styles from "./index.module.scss";
 import App from "./Components/App";
 import reportWebVitals from "./reportWebVitals";
 import Navigation from "./Components/Navigation";
 import Content from "./Components/Content";
 import ProjectCard from "./Components/ProjectCard";
-// import computerImage from "./Components/Illustrations/computerImage.svg";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <div className="rootBackground">
-      <Navigation />
-      <Content />
+    <Navigation />
+    <Content />
+    <div className={styles.projectCards}>
       <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
-      <App />
+      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
+      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
+      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
     </div>
+    <App />
   </React.StrictMode>
 );
 

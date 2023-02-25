@@ -13,7 +13,7 @@ function ProjectCard({
         className={styles.cardImage}
         style={{ backgroundImage: `url(${process.env.PUBLIC_URL + src})` }}
       >
-        <div className={styles.cardCaption}>test</div>
+        <div className={styles.cardCaption}>{cardCaption}</div>
       </div>
     </div>
   );
