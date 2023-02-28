@@ -15,10 +15,10 @@ root.render(
     <Navigation />
     <Content />
     <div className={styles.projectCards}>
-      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
-      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
-      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
-      <ProjectCard cardCaption={"lol"} src={"/logo192.png"} />
+      <ProjectCard linkTo="" cardCaption={"lol"} src={"/logo192.png"} />
+      <ProjectCard linkTo="" cardCaption={"lol"} src={"/logo192.png"} />
+      <ProjectCard linkTo="" cardCaption={"lol"} src={"/logo192.png"} />
+      <ProjectCard linkTo="" cardCaption={"lol"} src={"/logo192.png"} />
     </div>
     <App />
   </React.StrictMode>
