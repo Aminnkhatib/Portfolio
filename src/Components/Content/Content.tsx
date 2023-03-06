@@ -8,7 +8,7 @@ function Content() {
       <div className={styles.introduction}>
         <p className={styles.greeting}>👋 Hello, I'm</p>
         <p className={styles.name}>Aminn</p>
-        <p className={styles.frontend}>&lt;&gt;Frontend developer&lt;/&gt;</p>
+        <p className={styles.frontend}>&lt;&gt;Frontend Developer&lt;/&gt;</p>
       </div>
       <div className={styles.imageContainer}>
         <img

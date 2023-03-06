@@ -22,9 +22,9 @@ li a {
   text-align: center;
   padding: 8px 12px;
   text-decoration: none;
+  border-radius: 16px;
 }
 
 li a:hover {
   background-color: $hover-color;
-  border-radius: 16px;
 }
